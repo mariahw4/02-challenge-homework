@@ -23,13 +23,13 @@ body {
     text-align: center;
     padding: 4rem;
   }
-  .cell-1 {
+  .cell-1 {  /*header*/
     grid-row: 1;
     grid-column: 1/4;
     background: lightskyblue;
   }
 
-  .cell-2 {
+  .cell-2 { /*subheader*/
     grid-row: 2;
     grid-column: 1/4;
     padding: 0;
@@ -37,65 +37,65 @@ body {
     position: relative;
     text-align: center;
   }
-  .cell-3 {
+  .cell-3 { /*about me*/
     grid-row: 3;
     grid-column: 1;
     background: #d597d5;
     text-align: right;
     border-right: navy solid 5px;
   }
-  .cell-4 {
+  .cell-4 { /*about me content*/
     grid-row: 3;
     grid-column: 2/4;
     background: lightblue;
   }
-  .cell-5 {
+  .cell-5 {  /*work*/
     grid-row: 4/7;
     grid-column: 1;
     background: #d597d5;
     text-align: right;
     border-right: navy solid 5px;
   }
-  .cell-7 {
+  .cell-7 { /*contact me*/
     grid-row: 8;
     grid-column: 1;
     background: #d597d5;
     text-align: right;
     border-right: navy solid 5px;
   }
-  .cell-8 {
+  .cell-8 {  /*contact me content*/
     grid-row: 8;
     grid-column: 2/4;
     background: lightblue;
   }
-  .cell-9 {
+  .cell-9 { /*footer*/
     grid-row: 9;
     grid-column: 1/4;
     background: lightskyblue;
     font-size: medium;
   }
 
-  .cell-10 {
+  .cell-10 { /*work project 1*/
     grid-row: 4;
     grid-column: 2/4;
     background: lightblue;
    
   }
-  .cell-11 {
+  .cell-11 { /*work project 2*/
     grid-row: 5;
     background: lightblue;
    
   }
-  .cell-12 {
+  .cell-12 { /*work project 3*/
     grid-row: 5;
     background: lightblue;
   }
-  .cell-13 {
+  .cell-13 { /*work project 4*/
     grid-row: 6;
     background: lightblue;
 
   }
-  .cell-14 {
+  .cell-14 {  /*work project 5*/
     grid-row: 6;
     background: lightblue;
   }
