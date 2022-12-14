@@ -105,16 +105,17 @@ body {
     font-size: 56px;
     text-decoration: underline;
     color: navy;
-    padding-right: 250px;
+    padding-right: 50px;
     display: inline-block;
 }
+
 
 .nav {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
-    padding-top: 20px;
+    padding-top: 150px;
 }
 
 .nav ul li {
@@ -159,4 +160,28 @@ p {
 
 span {
     color: red;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        border: 1px solid black;
+        background-color: aqua;
+        width: 45%;
+        height: auto;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        border: 1px solid black;
+        background-color: white;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
