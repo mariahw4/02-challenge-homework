@@ -10,12 +10,9 @@ body {
 
 .container {
     display: grid ;
-    height: 100px;
-    width: 100%;
-    margin: 2rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:auto ;
-    grid-gap: 10px 10px;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-column-gap: 0;
+    grid-row-gap: 10px;
   }
 
   .cell {
@@ -116,11 +113,10 @@ body {
 
 .h1 {
     text-align: left;
-    justify-content: flex-start;
     font-size: 48px;
     text-decoration: underline;
     color: navy;
-    padding-right: 50px;
+    padding-right: 200px;
     display: inline-block;
 }
 
@@ -132,14 +128,14 @@ body {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 35px;
-    padding-top: 100px;
+    font-size: 25px;
+    padding-top: 75px;
 }
 
 .nav ul li {
     list-style-type: none;
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 
 a {
@@ -151,14 +147,12 @@ p {
     font-size: 16px;
 }
 
-
 .bottom-right {
     position: absolute;
     right: 50px;
     top: 280px;
     color: white;
-    font-size: 30px;
-   
+    font-size: 30px; 
 }
 
 .h2 {
@@ -166,12 +160,10 @@ p {
     flex-wrap: wrap;
     font-size: 48px;
     color: forestgreen;
-    justify-content: flex-end;
-    text-align: right;
 }
 
 .contact-list li {
-    font-size: 20px;
+    font-size: 30px;
     display: inline-block;
     padding-inline: 5px;
 }
@@ -182,24 +174,212 @@ span {
 
 @media screen and (max-width: 992px) {
     .container {
-        border: 1px solid black;
-        background-color: aqua;
-        width: 45%;
-        height: auto;
-        margin: auto;
+        background-color: rgb(228, 247, 237);
         margin-top: 10px;
         margin-bottom: 10px;
+        grid-template-columns: 1fr 1fr;
     }
+    .cell {
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        padding: 4rem;
+      }
+    .cell-1 {  /*header*/
+        grid-row: 1;
+        grid-column: 1/3;
+        background: white;
+        text-align: center;
+      }
+    
+    .cell-2 { /*subheader*/
+        grid-row: 2;
+        grid-column: 1/3;
+        padding: 0;
+        background-size:contain;
+        position: relative;
+        text-align: center;
+      }
+    .cell-3 { /*about me*/
+        grid-row: 3;
+        grid-column: 1;
+        background: white;
+        text-align: right;
+        border-right: navy solid 5px;
+      }
+    .cell-4 { /*about me content*/
+        grid-row: 3;
+        grid-column: 2;
+        background: white;
+        color: navy;
+      }
+    .cell-5 {  /*work*/
+        grid-row: 4;
+        grid-column: 1;
+        background: white;
+        text-align: right;
+        border-right: navy solid 5px;
+      }
+    .cell-7 { /*contact me*/
+        grid-row: 7;
+        grid-column: 1;
+        background: white;
+        text-align: right;
+        border-right: navy solid 5px;
+      }
+    .cell-8 {  /*contact me content*/
+        grid-row: 7;
+        grid-column: 2;
+        background: white;
+      }
+    .cell-9 { /*footer*/
+        grid-row: 8;
+        grid-column: 1/3;
+        background: white;
+        font-size: medium;
+        color: navy;
+        border-top: 2px solid navy;
+      }
+    
+    .cell-10 { /*work project 1*/
+        grid-row: 4;
+        grid-column: 2;
+        background: white;
+        border-top: 2px solid navy;
+        border-bottom: 2px solid navy;
+       
+      }
+    .cell-11 { /*work project 2*/
+        grid-row: 5;
+        grid-column: 1;
+        background: white;
+        border-right: 2px solid navy;
+        border-bottom: 2px solid navy;
+       
+      }
+    .cell-12 { /*work project 3*/
+        grid-row: 5;
+        grid-column: 2;
+        background: white;
+        border-bottom: 2px solid navy;
+      }
+    .cell-13 { /*work project 4*/
+        grid-row: 6;
+        grid-column: 1;
+        background: white;
+        border-bottom: 2px solid navy;
+        border-right: 2px solid navy;
+        color: navy;
+    
+      }
+    .cell-14 {  /*work project 5*/
+        grid-row: 6;
+        grid-column: 2;
+        background: white;
+        border-bottom: 2px solid navy;
+        color: navy;
+      }
+    
 }
 
 @media screen and (max-width: 768px) {
     .container {
-        border: 1px solid black;
-        background-color: white;
-        width: 80%;
-        height: auto;
-        margin: auto;
+        background-color: rgb(228, 247, 237);
         margin-top: 10px;
         margin-bottom: 10px;
+        grid-template-columns: 1fr;
+        border: 3px solid navy;
     }
+    .cell {
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        padding: 4rem;
+      }
+    .cell-1 {  /*header*/
+        grid-row: 1;
+        grid-column: 1;
+        background: white;
+        text-align: center;
+      }
+    
+    .cell-2 { /*subheader*/
+        grid-row: 2;
+        grid-column: 1;
+        padding: 0;
+        background-size:contain;
+        position: relative;
+        text-align: center;
+      }
+    .cell-3 { /*about me*/
+        grid-row: 3;
+        grid-column: 1;
+        background: white;
+        text-align: center;
+
+      }
+    .cell-4 { /*about me content*/
+        grid-row: 4;
+        grid-column: 1;
+        background: white;
+        color: navy;
+      }
+    .cell-5 {  /*work*/
+        grid-row: 5;
+        grid-column: 1;
+        background: white;
+        text-align: center;
+    
+      }
+    .cell-7 { /*contact me*/
+        grid-row: 11;
+        grid-column: 1;
+        background: white;
+        text-align: center;
+
+      }
+    .cell-8 {  /*contact me content*/
+        grid-row: 12;
+        grid-column: 1;
+        background: white;
+      }
+    .cell-9 { /*footer*/
+        grid-row: 13;
+        grid-column: 1;
+        background: white;
+        font-size: medium;
+        color: navy;
+      }
+    
+    .cell-10 { /*work project 1*/
+        grid-row: 6;
+        grid-column: 1;
+        background: white;
+       
+      }
+    .cell-11 { /*work project 2*/
+        grid-row: 7;
+        grid-column: 1;
+        background: white;
+
+      }
+    .cell-12 { /*work project 3*/
+        grid-row: 8;
+        grid-column: 1;
+        background: white;
+      }
+    .cell-13 { /*work project 4*/
+        grid-row: 9;
+        grid-column: 1;
+        background: white;
+        color: navy;
+    
+      }
+    .cell-14 {  /*work project 5*/
+        grid-row: 10;
+        grid-column: 1;
+        background: white;
+        color: navy;
+      }
+    
 }
