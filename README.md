@@ -3,11 +3,11 @@ Due 12/15/22: Created by Mariah Wear as part of UCB Coding Bootcamp
 
 ## Mock-Up
 
-The following photo shows the web application's appearance:
+The following photo and gif show the web application's appearance and functionality:
 
 ![screenshot](./Assets/images/screenshot-preview.png)
 
-![animation](./Assets/images/Mariah's%20Portfolio.gif)
+![animation](./Assets/images/mariah-portfolio.gif)
 
 
 ## User Story (as given in source material)
