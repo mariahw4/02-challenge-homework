@@ -7,7 +7,7 @@ The objective of this project is to make a professional portfolio showcasing som
 
 ## Mock-Up
 
-Link to deployed project: https://mariahw4.github.io/02-challenge-hw-building-profile/
+Link to deployed project: https://mariahw4.github.io/02-professional-portfolio/
 
 The following photo and gif show the web application's appearance and functionality:
 
