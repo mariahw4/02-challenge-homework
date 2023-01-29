@@ -1,7 +1,13 @@
 # 02 Advanced CSS: Portfolio
 Due 12/15/22: Created by Mariah Wear as part of UCB Coding Bootcamp
 
+Modified and updated 01/30/2023
+
+The objective of this project is to make a professional portfolio showcasing some of my projects to date and a brief introduction of myself.  The project also contains links to my github, linkedin, and email to further my networking.
+
 ## Mock-Up
+
+Link to deployed project: https://mariahw4.github.io/02-challenge-hw-building-profile/
 
 The following photo and gif show the web application's appearance and functionality:
 
